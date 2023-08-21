@@ -1,0 +1,427 @@
+/* #eoe5ec */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color:#2D4356;
+    box-shadow: 3px 3px 6px #0c0e11;
+    /* border: .1px solid black; */
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.centre{
+    font-family: 'Poppins', sans-serif;
+    background-color: #435B66;
+}
+.centre1{
+    width:80%;
+    height: 700px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar img{
+    margin: 25px 0 15px 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    box-shadow: -3px -3px 6px #0f0f10,2px 2px 6px #34349b;
+    
+}
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 35%;
+    text-decoration: none;
+   
+}
+.menu a{
+    text-decoration:none;
+    padding: 6px 50px;
+    margin: 10px 10px;
+   /* background-color: #1c1cbe;*/
+   background-image: url(maa.jpg);
+    font-size: 16px;
+    color:rgb(231, 239, 230);
+    box-shadow: -3px -3px 6px #0d0a0d,2px 2px 6px #000;
+    border-radius: 30px;
+    /* box-sizing: border-box; */
+    /* align-items: center; */
+    text-align: center;
+
+}
+.menu a:hover{
+    box-shadow:inset 1px 1px 4px #000;
+}
+h4{
+    color: rgb(237, 245, 7);
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+h2{
+    color: #fff;
+}
+
+.centre1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centre1 h1{
+    font-size: 55px;
+    letter-spacing: 2px;
+    color:black;
+}
+.centre1 h2{
+    color: #211b1b;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.centre1 button,.textsec button{
+background-image: url(maa.jpg);
+margin-top: 28px;
+padding: 8px 24px;
+color: #fbf0f0;
+border-radius: 5px;
+font-size: 16px;
+box-shadow: -2px -2px 6px #000,2px 2px 6px #fff;
+border: none;
+cursor: pointer;
+
+}
+.centre1 button:hover{
+    box-shadow:inset 1px 1px 4px #000;
+
+}
+
+.icons{
+    background-image: url(maa.jpg);
+    margin-top: 70px;
+    padding: 6px 12px;
+    box-shadow: -2px -2px 6px #000,2px 2px 6px #fff;
+    border-radius: 5px;
+}
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+.icons i{
+
+    background-color: #fffafa;
+    padding: 8px 10px;
+    margin: 5px;
+    box-shadow: -2px -2px 6px #000,2px 2px 6px #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-facebook-f:hover{
+
+   background-color: rgb(124, 207, 255);
+    box-shadow:inset 1px 1px 4px #000;
+
+}
+.fa-square-instagram:hover{
+    background-color: rgb(222, 13, 62);
+    box-shadow:inset 1px 1px 4px #000;
+
+}
+.fa-twitter:hover{
+
+    background-color: rgb(54, 162, 250);
+    box-shadow:inset 1px 1px 4px #000;
+
+}
+.fa-square-whatsapp:hover{
+
+    background-color:rgb(57, 190, 50);
+    box-shadow:inset 1px 1px 4px #000;
+
+}
+
+
+
+
+
+
+
+/* this is for about section */
+/* this is for about section */
+/* this is for about section */
+.achivm{
+    color: black;
+}
+
+.aboutsec{
+    background-color: #8CABFF;
+    width: 80%;
+    margin-left: 20%;
+    margin-top:5%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.gt{
+    color: green;
+    /* text-decoration: underline; */
+}
+.aboutsec h1{
+
+    font-size:40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+.four a{
+    text-decoration: none;
+    color: #000;
+}
+.four div div{
+
+    height:110px;
+    width:180px;
+    /* background-color: aqua; */
+    background-color:rgb(180, 216, 17);
+    margin: 015px;
+    box-shadow: -2px -2px 7px #000,2px 2px 6px #000;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.rapper{
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four{
+    padding: 30px;
+    display: flex;
+    width: 50%;
+    /* background-color: bisque; */
+}
+.textsec{
+    width: 50%;
+    padding: 30px;
+}
+
+.textsec button:hover{
+    box-shadow:inset 1px 1px 4px #000;
+}
+
+.per{
+    width: 80%;
+    height: 400px;
+    /* background-color: aqua; */
+    margin-top: 40px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+.per div
+{
+    height: 9px;
+    width: 500px;
+    background-color:rgb(180, 216, 17);
+    box-shadow: -1px -1px 3px #000,2px 2px 6px #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.per div div{
+   
+    background-color: green;
+    height: 9px;
+    width: 400px ;
+}
+/* here about section end  */
+/* here about section end  */
+/* here about section end  */
+
+.ach{
+    background-color: #512B81;
+    width: 80%;
+    margin-left:20% ;
+    padding: 20PX;
+}
+
+.ach h1{
+    font-size:40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.ach .achtext{
+    color: green;
+}
+.achcont{
+    box-sizing: border-box;
+
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.school,.college,.other{
+    position: relative;
+    background-color:rgb(225, 232, 192);
+    box-shadow: -3px -3px 6px #fff,2px 2px 6px #000;
+
+    height: 300px;
+    width: 25%;
+    margin: 20px;
+    cursor: pointer;
+}
+.school div,.college div,.other div{
+
+    height: 60px;
+    width: 60px;
+    background-color:rgb(5, 111, 5);
+    border-radius: 0 0% 70% 0;
+}
+
+.ach i{
+    font-size: 25px;
+    margin: 17px 0 0 10px;
+}
+.achcont img{
+
+height: 90px;
+width: 90px;
+border-radius: 50%;
+margin-left: 80px;
+}
+.achcont button{
+
+    background-color: rgb(180, 216, 17);
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 8px 16px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: -2px -2px 6px #000,2px 2px 6px #fff;
+    border: none;
+    cursor: pointer;
+}
+.achcont button:hover{
+
+    box-shadow:inset 1px 1px 4px #000;
+
+}
+
+.mypics {
+    margin-left: 20%;
+    /* height: 150px; */
+    width:80%;
+    background-color: #F8F0E5;
+    
+}
+.mypics img{
+     margin: 60px;
+    height: 300px;
+    width: 180px;
+    box-shadow:-2px -2px 6px #000,2px 2px 6px #000 ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .7s;
+}
+.mypics img:hover{
+
+opacity: .5;
+}
+
+.mypics h1{
+    font-size:40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.picstext{
+    color: rgb(228, 237, 228);
+
+}
+
+.contact{
+
+    width: 80%;
+    margin-left: 20%;
+    height: 600px;
+    background-color:#35155D;
+    /* padding: 30px px; */
+}
+
+
+.contact h1{
+    font-size:40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.contacttext{
+    color: green;
+}
+.form{
+
+    padding: 10px;
+    margin-left: 15%;
+    background-image: URL(maa.jpg);
+    width: 60%;
+    box-shadow:-2px -2px 6px #fff,2px 2px 15px #000 ;
+    border-radius: 10px;
+}
+.form input{
+    height: 25px;
+    width: 95%;
+    margin: 8px;
+    padding: 2px 4px;
+    box-shadow: -3px -3px 6px #fff,2px 2px 6px #000;
+    border-radius: 10px;
+    border: none;
+    background-image: url(s.jpg);
+}
+.form textarea{
+    height: 150px;
+    width: 95%;
+    margin: 8px;
+    padding: 6px 10px;
+    box-shadow: -3px -3px 6px #fff,2px 2px 6px #000;
+    border-radius: 10px;
+    border: none;
+    background-color: #2D4356;
+
+}
+.form button{
+
+    background-image: url(s.jpg);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px 16px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: -3px -3px 6px #fff,2px 2px 6px #000;
+    border: none;
+    cursor: pointer;
+}
+.form button a{
+    text-decoration: none;
+    color: white;
+}
